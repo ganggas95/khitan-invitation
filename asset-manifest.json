@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/invite-khitan/static/css/main.855f3aa0.chunk.css",
+    "main.js": "/invite-khitan/static/js/main.5d364035.chunk.js",
+    "main.js.map": "/invite-khitan/static/js/main.5d364035.chunk.js.map",
+    "runtime-main.js": "/invite-khitan/static/js/runtime-main.55df7206.js",
+    "runtime-main.js.map": "/invite-khitan/static/js/runtime-main.55df7206.js.map",
+    "static/js/2.7d1a1ebc.chunk.js": "/invite-khitan/static/js/2.7d1a1ebc.chunk.js",
+    "static/js/2.7d1a1ebc.chunk.js.map": "/invite-khitan/static/js/2.7d1a1ebc.chunk.js.map",
+    "static/js/3.cfd0aa3e.chunk.js": "/invite-khitan/static/js/3.cfd0aa3e.chunk.js",
+    "static/js/3.cfd0aa3e.chunk.js.map": "/invite-khitan/static/js/3.cfd0aa3e.chunk.js.map",
+    "index.html": "/invite-khitan/index.html",
+    "static/css/main.855f3aa0.chunk.css.map": "/invite-khitan/static/css/main.855f3aa0.chunk.css.map",
+    "static/js/2.7d1a1ebc.chunk.js.LICENSE.txt": "/invite-khitan/static/js/2.7d1a1ebc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55df7206.js",
+    "static/js/2.7d1a1ebc.chunk.js",
+    "static/css/main.855f3aa0.chunk.css",
+    "static/js/main.5d364035.chunk.js"
+  ]
+}
