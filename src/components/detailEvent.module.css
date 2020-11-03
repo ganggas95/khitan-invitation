@@ -1,0 +1,33 @@
+
+
+.nameChild{
+    margin: 40px 0px 40px 0px;
+    font-size: 38px;
+    color: rgb(10, 147, 160);
+    font-family: 'Reem Kufi', sans-serif !important;
+}
+
+.nameParent{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.excelentWord{
+    margin: 20px 0px 20px 0px;
+}
+
+@media screen and (min-width: 700px){
+    .salam{
+        font-size: 50px;
+    }
+
+    .nameChild{
+        font-size: 50px;
+    }
+
+    .nameParent{
+        font-size: 18px;
+    }
+}

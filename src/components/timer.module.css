@@ -1,0 +1,60 @@
+
+.timeInvitations{
+    margin: 0 0 16px 0;
+    flex-wrap: nowrap;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gabriela', serif;
+    width: 100px;
+    height: 100px;
+    background: rgba(241,78,149,0.8);
+    margin: 8px;
+    border-radius: 50%;
+    position: relative;
+    -webkit-animation: pulse 1s ease infinite;
+    animation: pulse 1s ease infinite;
+    color: #fff;
+    background-color: #5DBAE8;
+}
+
+.time h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1025px){
+    .timeInvitations{
+        margin: 0px 30% 0px 30%;
+    }
+}
+
+@media screen and (max-width: 1025px){
+    .timeInvitations{
+        margin: 0px 10% 0px 10%;
+    }
+}
+
+
+@media screen and (max-width: 675px){
+    .timeInvitations{
+        margin: 0px 5% 0px 5%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .timeInvitations{
+        margin: 0px 10px 0px 10px;
+    }
+    .time {
+        width: 75px;
+        height: 75px;
+        margin: 4px;
+        font-size: 12px;
+    }
+    .time h3{
+        font-size: 16px;
+    }
+}

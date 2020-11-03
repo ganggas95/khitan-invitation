@@ -1,0 +1,90 @@
+
+.eventDate{
+    border: 2px solid hsla(0,0%,100%,.5);
+    background: hsla(0,0%,100%,.1);
+    padding: 30px;
+    width: 100%;
+    /* max-width: 80%; */
+    float: left;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.eventTitle{
+    margin-top: 50px;
+    color: #fff;
+}
+.eventDateTitle{
+    color: #fff;
+    max-width: 450px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #fff;
+}
+
+.eventTime{
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.eventTime div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+}
+.eventTime div span{
+    margin-top: 10px;
+}
+.eventLocation{
+    display: inline-block;
+    margin-top: 30px;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+.eventLocation svg{
+    display: none;
+}
+
+@media screen and (max-width: 700px){
+    .eventTime{
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+    .eventTime div{
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 100%;
+    }
+    .eventTime div svg{
+        margin-right: 10px;
+    }
+    .eventTime div span{
+        margin-top: 0px;
+    }
+    .eventLocation{
+        margin-top: 5px;
+        margin-left: 23px;
+        text-align: left;
+        display: flex;
+        padding: 0px 0px;
+    }
+    .eventLocation .eventLocationKet{
+        display: none;
+    }
+    .eventLocation svg{
+        display: inline;
+        margin-right: 15px;
+    }
+}

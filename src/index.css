@@ -1,0 +1,30 @@
+.d-flex{
+  display: flex;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.animated{
+  transition: transform 1s ease;
+}
+
+.animated.zoom-in{
+  transform: scale(1.08);
+}
+
+.salam{
+  font-family: 'Reem Kufi', sans-serif !important;
+  margin: 20px 0px;
+  font-size: 40px !important;
+  color: rgb(10, 147, 160);
+}
